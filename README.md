@@ -106,9 +106,24 @@ quarto render
 
 ## Saving and updating the website
 
-- Once you have made the changes you'd like, make sure all files are saved.
+- Once you have made the changes you'd like and tested the rendering of the website successfully you can send the changes to github for review by Ashley or another lab member.
 
-- 
+- Stage and commit those changes.
+
+  ``` bash
+  git add <file that was changed>
+  git commit -m <commit message>
+  ```
+
+  Or in Rstudio, use the commit dialogue to stage and commit the changes.
+
+- Once you have the updates you want committed to your branch, push the branch to the website.
+
+  ``` bash
+  git push -u origin <your-branch-name>
+  ```
+
+  Or, in RStudio:
 
 ------------------------------------------------------------------------
 
