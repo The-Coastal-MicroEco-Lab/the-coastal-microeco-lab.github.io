@@ -161,7 +161,7 @@ Alternatively, you can click on the "pull requests" tab on the github repo webpa
     quarto render
     ```
 
-If the website renders properly
+If the website renders properly, and everything looks good, you can approve the pull request, if not, leave a comment on the discussion with any changes you want them to make and commit before the merge.
 
 ------------------------------------------------------------------------
 
