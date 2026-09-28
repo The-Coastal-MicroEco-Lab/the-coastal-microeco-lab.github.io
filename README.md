@@ -206,7 +206,7 @@ Include information such as:
 - Photo, if desired (the default will be the lab logo, otherwise)
 - If you have any publications that will show up on the website and the name you use in your bio does not match the spelling used in the publication, you can add "publication names" to make sure your name is in bold.
 
-### Photos
+### Photos and documents
 
 Place new profile photos in the `/images/profiles` folder used by the existing member photos.
 
@@ -220,6 +220,10 @@ For consistency:
 ``` text
 jane-doe.jpg
 ```
+
+Place new documents (such as a CV) in the `/files/` folder. 
+
+Confusingly, you may also see a "docs" folder after rendering the website. This folder is created internally by Quarto and is used to hold all the html of the finished website. Any edits made in this folder will not last since it is overwritten in every render. It should *never* be added to the files that are tracked by git.
 
 ### Alumni
 
@@ -470,7 +474,7 @@ git push
 If you created a branch, push the branch instead:
 
 ``` bash
-git push -u origin update-website
+git push -u origin <branch-name>
 ```
 
 Then open a pull request on GitHub.
@@ -522,6 +526,20 @@ rather than:
 ``` text
 updates
 ```
+
+## Gitignore
+
+Please feel free to add files to the gitignore file, but do not remove files from it without approval. 
+
+Since the .gitignore is tracked and shared, please add any new files to the end, rather than the middle of the file, this will help prevent merge conflicts. 
+
+Please also add a brief description in a comment of the file that is being ignored, so other users understand what the lines are for.
+
+## Pages Under Development
+
+By default, all `.qmd`, `.Rmd`, and `.md` files in the project directory for a Quarto website are rendered. This is a desirable behavior in some respects but a pain when you want to work on files that are not yet ready for full inclusion in the website but want to track your progress with Git. Fortunately, **directories preceded by a "_" are not rendered**.
+
+So, pages under development that you're working on but don't want to be rendered or included in the deployed site should be placed in `_dev/`.
 
 ------------------------------------------------------------------------
 
