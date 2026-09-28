@@ -13,7 +13,7 @@ execute:
 website:
   title: "Coastal MicroEco Lab"
   favicon: images/Logo_coastal_micro_eco_lab.png
-  repo-url: https://github.com/The-Coastal-MicroEco-Lab/CoastalMicroEco
+  repo-url: https://github.com/The-Coastal-MicroEco-Lab/the-coastal-microeco-lab.github.io
   repo-actions: [issue]
   navbar:
     background: primary
