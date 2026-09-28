@@ -163,7 +163,21 @@ Alternatively, you can click on the "pull requests" tab on the github repo webpa
 
 If the website renders properly, and everything looks good, you can approve the pull request (green button: "Merge pull request"), if not, leave a comment on the discussion with any changes you want them to make and commit before the merge.
 
-Any updates that are made to the branch during this process, will automatically be added to the pull request, and can be previewed and tested as above.
+Any updates that are made to the branch during this process, will automatically be added to the pull request, and can be previewed and tested by replacing "fetch" with pull as above.
+
+    ``` bash
+    # Pull updates to the pull request reference to local branch named pr-branch
+    git pull origin pull/<pr-number>/head:pr-branch
+
+    # Switch to the newly created branch (if you aren't already on it)
+    git checkout pr-branch
+
+    # Check all is okay
+    quarto preview
+
+    # Check the render goes smoothly
+    quarto render
+    ```
 
 ------------------------------------------------------------------------
 
