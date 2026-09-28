@@ -180,7 +180,10 @@ Any updates that are made to the branch during this process, will automatically 
     ```
 
 Once the branch is merged, the website will automatically update to include the changes. 
+
 ------------------------------------------------------------------------
+
+# Details for Specific Update Tasks
 
 ## Adding or updating a lab member
 
@@ -409,13 +412,13 @@ When creating a new research page:
 3.  Add images where appropriate.
 4.  Add the page to the website navigation if it should appear in the menu.
 
-Whenever possible, describe research for a broad scientific audience rather than assuming that readers are specialists in the field.
+Whenever possible, describe research for a broad scientific audience.
 
 ------------------------------------------------------------------------
 
 ## Changing the site's appearance
 
-The site's colors, cards, image behavior, spacing, and other visual elements are controlled primarily through the site's `.scss` and configuration files.
+The site's colors, cards, image behavior, spacing, and other visual elements are controlled primarily through the site's `.scss` and configuration files which are stored in sub-directories of `_extensions\`.
 
 Only edit these files if you intend to make a site-wide design change.
 
@@ -427,6 +430,7 @@ quarto preview
 
 If you only want to change the content of a page, you probably **do not need to edit the SCSS**.
 
+More details about specifics of the site's .scss files can be found in the `README.md` file in the `_extensions` folder. 
 ------------------------------------------------------------------------
 
 ## Website analytics
