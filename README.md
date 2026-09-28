@@ -179,6 +179,7 @@ Any updates that are made to the branch during this process, will automatically 
     quarto render
     ```
 
+Once the branch is merged, the website will automatically update to include the changes. 
 ------------------------------------------------------------------------
 
 ## Adding or updating a lab member
