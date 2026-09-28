@@ -1,1 +1,1 @@
-Sitemap: https://The-Coastal-MicroEco-Lab.github.io/CoastalMicroEco/sitemap.xml
+Sitemap: https://The-Coastal-MicroEco-Lab.github.io/the-coastal-microeco-lab.github.io/sitemap.xml
