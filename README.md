@@ -535,6 +535,12 @@ Since the .gitignore is tracked and shared, please add any new files to the end,
 
 Please also add a brief description in a comment of the file that is being ignored, so other users understand what the lines are for.
 
+## Pages Under Development
+
+By default, all `.qmd`, `.Rmd`, and `.md` files in the project directory for a Quarto website are rendered. This is a desirable behavior in some respects but a pain when you want to work on files that are not yet ready for full inclusion in the website but want to track your progress with Git. Fortunately, **directories preceded by a "_" are not rendered**.
+
+So, pages under development that you're working on but don't want to be rendered or included in the deployed site should be placed in `_dev/`.
+
 ------------------------------------------------------------------------
 
 ## If something breaks
