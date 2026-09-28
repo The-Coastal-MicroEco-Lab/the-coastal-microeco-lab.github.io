@@ -7,7 +7,7 @@ role: "Role in Lab"
 role-type: "graduate"
 
 current-position: "" # if alumni, fill with current position.
-image: "images/Logo_coastal_micro_eco_lab.png"
+image: "../images/Logo_coastal_micro_eco_lab.png"
 
 bio: >
   A longer professional biography. This can include educational
