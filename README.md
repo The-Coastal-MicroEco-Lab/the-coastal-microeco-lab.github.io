@@ -123,7 +123,25 @@ quarto render
   git push -u origin <your-branch-name>
   ```
 
-  Or, in RStudio:
+  Or, in RStudio, click "Push" in the Git tab.
+
+- Go to the repository webpage: <https://github.com/The-Coastal-MicroEco-Lab/the-coastal-microeco-lab.github.io>
+
+  You should see a yellow banner at the top announcing your branch being pushed, and a green button saying "Compare & pull request"
+
+- Click on the green button, then write a description of your changes, and tag any user who you want to review your changes.
+
+- Whomever you tag, can then review the changes, make sure everything is going to work properly, and then click the green "Merge pull request" button.
+
+- The website automatically re-renders whenever a commit is pushed to the main branch.
+
+## Reviewing and approving pull requests
+
+When someone tags you in a pull request, you will get a notification and probably an email from github. Click on the link in that notification to see their pull request.
+
+Alternatively, you can click on the "pull requests" tab on the github repo webpage.
+
+1.  First check the "files changed" tab to see what files were changed. Added lines are in green, deleted lines are in red.
 
 ------------------------------------------------------------------------
 
@@ -319,7 +337,7 @@ research/
 
 The exception are the lab handbook and "links and resources" page which are housed in the repository root and contain both the index material and page content in a single file.
 
-#### Editing: 
+#### Editing:
 
 Text can be edited directly.
 
