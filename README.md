@@ -143,6 +143,26 @@ Alternatively, you can click on the "pull requests" tab on the github repo webpa
 
 1.  First check the "files changed" tab to see what files were changed. Added lines are in green, deleted lines are in red.
 
+2.  Optional, but recommended: Check out the changes and make sure the website renders properly. You will need the pull request reference number, which is usually found at the top of the pull request page after the title:
+
+    For example: "Adds code review instructions to the github readme. #2", 2 is the number.
+
+    ``` bash
+    # Fetch the pull request reference and create a new local branch named pr-branch
+    git fetch origin pull/<pr-number>/head:pr-branch
+
+    # Switch to the newly created branch
+    git checkout pr-branch
+
+    # Check all is okay
+    quarto preview
+
+    # Check the render goes smoothly
+    quarto render
+    ```
+
+If the website renders properly
+
 ------------------------------------------------------------------------
 
 ## Adding or updating a lab member
