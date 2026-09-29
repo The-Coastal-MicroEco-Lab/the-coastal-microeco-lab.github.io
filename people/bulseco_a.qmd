@@ -14,7 +14,7 @@ interests:
 
 links:
   - text: "Google Scholar"
-    href: "https://..."
+    href: "https://scholar.google.com/citations?user=t_V6v7gAAAAJ&hl=en"
 
   - text: "GitHub"
     href: "https://..."
