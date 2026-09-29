@@ -17,7 +17,7 @@ links:
     href: "https://scholar.google.com/citations?user=t_V6v7gAAAAJ&hl=en"
 
   - text: "GitHub"
-    href: "https://..."
+    href: "https://github.com/abulseco"
 
   - text: "ORCID"
     href: "https://..."
