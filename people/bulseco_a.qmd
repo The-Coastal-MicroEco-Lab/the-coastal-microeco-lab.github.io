@@ -11,6 +11,7 @@ bio: >
 interests:
   - Coastal microbial ecology 
   - Biogeochemistry 
+  - Ecosystem ecology
 
 links:
   - text: "Google Scholar"
