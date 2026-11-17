@@ -11,13 +11,6 @@ bio: >
 education:
   - "B.S. Environmental and Sustainability Sciences, concentration in Earth, Oceans, and Environmental Change, Northeastern University, Boston, MA"
 
-teaching-experience:
-  Northeastern University: 
-      - "ENVR1200 Lab, Dynamic Earth (Spring 2025)"
-  University of New Hampshire:
-      - "BIOL412 Lab, Intro to biology: evolution, biodiversity, and ecology (Fall 2025, Spring 2026)"
-      - "BIOL412 Lecture, Intro to biology: evolution, biodiversity, and ecology (Fall 2026)"
-
 interests:
   - Microbial ecology
   - Coastal ecosystems
@@ -41,6 +34,18 @@ order: 20
 ## Bio
 
 {{< meta bio >}}
+
+## Teaching Experience
+
+**Northeastern University** 
+
+ - ENVR1200 Lab, Dynamic Earth (Spring 2025)
+
+**University of New Hampshire** 
+
+ - BIOL412 Lab, Intro to Biology: Evolution, Biodiversity, and Ecology (Fall 2025, Spring 2026)
+ - BIOL412 Lecture, Intro to Biology: Evolution, Biodiversity, and Ecology (Fall 2026)
+
 
 ## Education
 
