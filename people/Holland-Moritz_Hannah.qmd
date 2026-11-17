@@ -19,7 +19,7 @@ interests:
   - Microbial ecology
   - Microbial traits
   - Biogeochemistry
-  - Mentorship in science
+  - Mentorship in Science
   - Bioinformatics
 
 links:
