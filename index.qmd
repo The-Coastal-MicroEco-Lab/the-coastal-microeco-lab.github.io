@@ -3,7 +3,7 @@ about:
   id: header
   template: trestles
   image: images/Logo_coastal_micro_eco_lab.png
-  image-width: 10cm
+  image-width: 350px
   image-shape: round
   links:
     - href: https://github.com/The-Coastal-MicroEco-Lab/CoastalMicroEco/issues
